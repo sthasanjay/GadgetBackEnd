@@ -4,6 +4,7 @@ const handler = require('../handlers/users');
 
 
 
-router.get('/users',handler.addUsers);
+router.get('/users',handler.getUsers);
+router.post('/users',handler.addUsers);
 
 module.exports = router;
